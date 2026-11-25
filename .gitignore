@@ -1,0 +1,17 @@
+# This public repository contains group summaries only.
+local_restricted_DO_NOT_UPLOAD/
+_work/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.cram
+*.raw
+*.wiff
+*.h5ad
+*.rds
+matrix.mtx*
+barcodes.tsv*
+features.tsv*
+__pycache__/

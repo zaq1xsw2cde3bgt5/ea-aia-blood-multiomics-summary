@@ -1,0 +1,140 @@
+file,column,definition
+bulk_rna_group_statistics.csv.gz,Gene,Source gene identifier or protein-to-gene assignment; retain the assay-specific identifier convention.
+bulk_rna_group_statistics.csv.gz,baseMean,"Reported DESeq2 mean normalized count; a group aggregate, not TPM."
+bulk_rna_group_statistics.csv.gz,log2FoldChange,"Reported RNA log2 fold change, responder minus non-responder."
+bulk_rna_group_statistics.csv.gz,lfcSE,Reported standard error of the RNA log2 fold change.
+bulk_rna_group_statistics.csv.gz,stat,Reported RNA Wald statistic.
+bulk_rna_group_statistics.csv.gz,pvalue,Reported nominal RNA or enrichment P value; check the file-specific method.
+bulk_rna_group_statistics.csv.gz,padj,Reported RNA adjusted P value; source correction family differs from all-row BH check.
+bulk_rna_group_statistics.csv.gz,Symbol,Gene symbol supplied with the source annotations.
+bulk_rna_group_statistics.csv.gz,Chr,Source chromosome annotation.
+bulk_rna_group_statistics.csv.gz,GeneType,Source RNA biotype.
+bulk_rna_group_statistics.csv.gz,Description,Source feature or gene-set description.
+bulk_rna_group_statistics.csv.gz,nominal_screen,"Source nominal P and fold-change screening flag; RNA P < 0.05, protein P <= 0.05."
+bulk_rna_group_statistics.csv.gz,BH_significant,Source adjusted threshold and assay-specific fold-change rule.
+bulk_rna_group_statistics.csv.gz,all_rows_BH_q,"Additional BH correction across all 46,714 exported RNA P values."
+bulk_rna_group_statistics.csv.gz,all_rows_BH_significant,RNA fold-change rule and all-row BH q < 0.05.
+bulk_rna_group_statistics.csv.gz,source_correction_family_display,"Membership of the 24,947-row RNA display/correction subset with reported adjusted P < 1."
+serum_protein_group_statistics.csv.gz,Accession,Protein accession supplied by the proteomics service.
+serum_protein_group_statistics.csv.gz,Description,Source feature or gene-set description.
+serum_protein_group_statistics.csv.gz,Gene,Source gene identifier or protein-to-gene assignment; retain the assay-specific identifier convention.
+serum_protein_group_statistics.csv.gz,FC,Protein responder/non-responder fold change.
+serum_protein_group_statistics.csv.gz,P-value,Reported nominal protein or enrichment P value; see the file description.
+serum_protein_group_statistics.csv.gz,FDR,Source BH-adjusted P value; family depends on abundance/ontology/KEGG table.
+serum_protein_group_statistics.csv.gz,Regulation,Source higher/lower-expression classification.
+serum_protein_group_statistics.csv.gz,Biological process,Unmodified source Biological process annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+serum_protein_group_statistics.csv.gz,Cellular component,Unmodified source Cellular component annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+serum_protein_group_statistics.csv.gz,Molecular function,Unmodified source Molecular function annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+serum_protein_group_statistics.csv.gz,KOG,Unmodified source KOG annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+serum_protein_group_statistics.csv.gz,K,Unmodified source K annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+serum_protein_group_statistics.csv.gz,KEGG_Pathways,Unmodified source KEGG_Pathways annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+serum_protein_group_statistics.csv.gz,IPRs,Unmodified source IPRs annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+serum_protein_group_statistics.csv.gz,Subcellular_localization,Unmodified source Subcellular_localization annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+serum_protein_group_statistics.csv.gz,signalP,Unmodified source signalP annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+serum_protein_group_statistics.csv.gz,disease_id,Unmodified source disease_id annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+serum_protein_group_statistics.csv.gz,drug_id,Unmodified source drug_id annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+serum_protein_group_statistics.csv.gz,FDA_Approval,Unmodified source FDA_Approval annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+serum_protein_group_statistics.csv.gz,log2FC,Protein log2 responder/non-responder fold change.
+serum_protein_group_statistics.csv.gz,nominal_screen,"Source nominal P and fold-change screening flag; RNA P < 0.05, protein P <= 0.05."
+serum_protein_group_statistics.csv.gz,BH_significant,Source adjusted threshold and assay-specific fold-change rule.
+single_cell_celltype_group_statistics.csv.gz,cluster,Source cell population label for cell-level differential expression.
+single_cell_celltype_group_statistics.csv.gz,gene,Gene identifier/symbol supplied by the single-cell service.
+single_cell_celltype_group_statistics.csv.gz,avg_log2FC,"Source cell-level average log2 fold change, responder minus non-responder."
+single_cell_celltype_group_statistics.csv.gz,pct.1,Proportion of cells expressing the feature in the responder group.
+single_cell_celltype_group_statistics.csv.gz,pct.2,Proportion of cells expressing the feature in the non-responder group.
+single_cell_celltype_group_statistics.csv.gz,p_val,Source cell-level Wilcoxon nominal P value; cells do not represent independent patients.
+single_cell_celltype_group_statistics.csv.gz,p_val_adj,Source adjusted cell-level P value; not a patient-level confirmation.
+single_cell_celltype_group_statistics.csv.gz,cell_level_screen,Source exploratory cell-level screening flag.
+cell_proportion_group_statistics.csv,cell_type,Unmodified source cell_type annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+cell_proportion_group_statistics.csv,Responder_mean_pct,Mean percentage across the three responder patients.
+cell_proportion_group_statistics.csv,Non_responder_mean_pct,Mean percentage across the three non-responder patients.
+cell_proportion_group_statistics.csv,Responder_median_pct,Median percentage across the three responder patients.
+cell_proportion_group_statistics.csv,Non_responder_median_pct,Median percentage across the three non-responder patients.
+cell_proportion_group_statistics.csv,exact_two_sided_p,Exact two-sided permutation Mann-Whitney rank-statistic P value over 20 patient allocations.
+cell_proportion_group_statistics.csv,BH_q,BH adjustment across six cell-population comparisons.
+protein_go_enrichment.csv,Ontology,Unmodified source Ontology annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+protein_go_enrichment.csv,GO,Unmodified source GO annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+protein_go_enrichment.csv,Description,Source feature or gene-set description.
+protein_go_enrichment.csv,DiffRatio,Unmodified source DiffRatio annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+protein_go_enrichment.csv,BgRatio,Unmodified source BgRatio annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+protein_go_enrichment.csv,P-value,Reported nominal protein or enrichment P value; see the file description.
+protein_go_enrichment.csv,FDR,Source BH-adjusted P value; family depends on abundance/ontology/KEGG table.
+protein_go_enrichment.csv,Up,Unmodified source Up annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+protein_go_enrichment.csv,up_prot,Unmodified source up_prot annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+protein_go_enrichment.csv,Down,Unmodified source Down annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+protein_go_enrichment.csv,down_prot,Unmodified source down_prot annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+protein_go_enrichment.csv,Count,Unmodified source Count annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+protein_go_enrichment.csv,Proteins,Unmodified source Proteins annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+protein_go_enrichment.csv,pooled_GO_BH_q,Additional BH correction pooled across all 356 protein GO terms.
+protein_kegg_enrichment.csv,ko_ID,Unmodified source ko_ID annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+protein_kegg_enrichment.csv,KEGG_Pathway,Unmodified source KEGG_Pathway annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+protein_kegg_enrichment.csv,KEGG_level_1,Unmodified source KEGG_level_1 annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+protein_kegg_enrichment.csv,KEGG_level_2,Unmodified source KEGG_level_2 annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+protein_kegg_enrichment.csv,DiffRatio,Unmodified source DiffRatio annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+protein_kegg_enrichment.csv,BgRatio,Unmodified source BgRatio annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+protein_kegg_enrichment.csv,P-value,Reported nominal protein or enrichment P value; see the file description.
+protein_kegg_enrichment.csv,FDR,Source BH-adjusted P value; family depends on abundance/ontology/KEGG table.
+protein_kegg_enrichment.csv,Up,Unmodified source Up annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+protein_kegg_enrichment.csv,up_prot,Unmodified source up_prot annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+protein_kegg_enrichment.csv,Down,Unmodified source Down annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+protein_kegg_enrichment.csv,down_prot,Unmodified source down_prot annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+protein_kegg_enrichment.csv,Count,Unmodified source Count annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+protein_kegg_enrichment.csv,Proteins,Unmodified source Proteins annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+protein_kegg_enrichment.csv,K_ids,Unmodified source K_ids annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+hallmark_reported_subset.csv,ID,Unmodified source ID annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+hallmark_reported_subset.csv,Description,Source feature or gene-set description.
+hallmark_reported_subset.csv,setSize,Unmodified source setSize annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+hallmark_reported_subset.csv,enrichmentScore,Unmodified source enrichmentScore annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+hallmark_reported_subset.csv,NES,Reported normalized enrichment score.
+hallmark_reported_subset.csv,pvalue,Reported nominal RNA or enrichment P value; check the file-specific method.
+hallmark_reported_subset.csv,p.adjust,Reported enrichment adjusted P value; only the delivered subset is provided.
+hallmark_reported_subset.csv,qvalue,Unmodified source qvalue annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+hallmark_reported_subset.csv,rank,Unmodified source rank annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+hallmark_reported_subset.csv,leading_edge,Unmodified source leading_edge annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+hallmark_reported_subset.csv,core_enrichment,Unmodified source core_enrichment annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_protein_group_correspondence.csv.gz,Gene_rna,RNA gene identifier in the cross-assay matching table.
+rna_protein_group_correspondence.csv.gz,Symbol,Gene symbol supplied with the source annotations.
+rna_protein_group_correspondence.csv.gz,log2FoldChange,"Reported RNA log2 fold change, responder minus non-responder."
+rna_protein_group_correspondence.csv.gz,pvalue,Reported nominal RNA or enrichment P value; check the file-specific method.
+rna_protein_group_correspondence.csv.gz,padj,Reported RNA adjusted P value; source correction family differs from all-row BH check.
+rna_protein_group_correspondence.csv.gz,nominal_screen_rna,"RNA component of Source nominal P and fold-change screening flag; RNA P < 0.05, protein P <= 0.05.."
+rna_protein_group_correspondence.csv.gz,BH_significant_rna,RNA component of Source adjusted threshold and assay-specific fold-change rule..
+rna_protein_group_correspondence.csv.gz,Accession,Protein accession supplied by the proteomics service.
+rna_protein_group_correspondence.csv.gz,Gene_protein,Protein component of Source gene identifier or protein-to-gene assignment; retain the assay-specific identifier convention..
+rna_protein_group_correspondence.csv.gz,log2FC,Protein log2 responder/non-responder fold change.
+rna_protein_group_correspondence.csv.gz,P-value,Reported nominal protein or enrichment P value; see the file description.
+rna_protein_group_correspondence.csv.gz,FDR,Source BH-adjusted P value; family depends on abundance/ontology/KEGG table.
+rna_protein_group_correspondence.csv.gz,nominal_screen_protein,"Protein component of Source nominal P and fold-change screening flag; RNA P < 0.05, protein P <= 0.05.."
+rna_protein_group_correspondence.csv.gz,BH_significant_protein,Protein component of Source adjusted threshold and assay-specific fold-change rule..
+rna_protein_group_correspondence.csv.gz,concordant_direction,RNA and protein group contrasts share the same sign.
+rna_protein_group_correspondence.csv.gz,both_nominal,Feature meets nominal screening rules in both assays.
+rna_protein_group_correspondence.csv.gz,both_BH,Feature meets source adjusted screening rules in both assays.
+rna_down_go_biological_process.csv,Term,Unmodified source Term annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_down_go_biological_process.csv,Database,Unmodified source Database annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_down_go_biological_process.csv,ID,Unmodified source ID annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_down_go_biological_process.csv,Input number,Unmodified source Input number annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_down_go_biological_process.csv,Background number,Unmodified source Background number annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_down_go_biological_process.csv,P-Value,Unmodified source P-Value annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_down_go_biological_process.csv,Corrected P-Value,Unmodified source Corrected P-Value annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_down_go_biological_process.csv,Input,Unmodified source Input annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_down_go_biological_process.csv,Hyperlink,Unmodified source Hyperlink annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_down_kegg.csv,Term,Unmodified source Term annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_down_kegg.csv,Database,Unmodified source Database annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_down_kegg.csv,ID,Unmodified source ID annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_down_kegg.csv,Input number,Unmodified source Input number annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_down_kegg.csv,Background number,Unmodified source Background number annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_down_kegg.csv,P-Value,Unmodified source P-Value annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_down_kegg.csv,Corrected P-Value,Unmodified source Corrected P-Value annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_down_kegg.csv,Input,Unmodified source Input annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_down_kegg.csv,Hyperlink,Unmodified source Hyperlink annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_down_kegg.csv,img,Unmodified source img annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_up_kegg.csv,Term,Unmodified source Term annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_up_kegg.csv,Database,Unmodified source Database annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_up_kegg.csv,ID,Unmodified source ID annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_up_kegg.csv,Input number,Unmodified source Input number annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_up_kegg.csv,Background number,Unmodified source Background number annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_up_kegg.csv,P-Value,Unmodified source P-Value annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_up_kegg.csv,Corrected P-Value,Unmodified source Corrected P-Value annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_up_kegg.csv,Input,Unmodified source Input annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_up_kegg.csv,Hyperlink,Unmodified source Hyperlink annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.
+rna_up_kegg.csv,img,Unmodified source img annotation/statistic; consult the file description and manuscript method; no patient measurement is stored in this column.

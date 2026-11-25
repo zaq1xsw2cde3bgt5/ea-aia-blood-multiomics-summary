@@ -1,0 +1,163 @@
+ko_ID,KEGG_Pathway,KEGG_level_1,KEGG_level_2,DiffRatio,BgRatio,P-value,FDR,Up,up_prot,Down,down_prot,Count,Proteins,K_ids
+ko04814,Motor proteins,Cellular Processes,Cell motility,5/55 9.09%,87/2593 3.36%,0.0352829555276588,0.936553947651209,2,B0I1T2;Q9UM54,3,A0A6Q8PFA6;P0DPH7;Q96FJ2,5,A0A6Q8PFA6;B0I1T2;P0DPH7;Q96FJ2;Q9UM54,K10393+K10356+K07374+K10418+K10358
+ko04145,Phagosome,Cellular Processes,Transport and catabolism,5/55 9.09%,150/2593 5.78%,0.209975345466895,0.936553947651209,2,P19878;Q15080,3,A0A0C4DH31;P0DPH7;Q9Y5K8,5,A0A0C4DH31;P0DPH7;P19878;Q15080;Q9Y5K8,K06856+K07374+K08010+K08012+K02149
+ko04217,Necroptosis,Cellular Processes,Cell growth and death,3/55 5.45%,72/2593 2.78%,0.194901433409687,0.936553947651209,1,P29466,2,Q13501;Q9Y3E7,3,P29466;Q13501;Q9Y3E7,K01370+K14381+K12193
+ko04137,Mitophagy - animal,Cellular Processes,Transport and catabolism,2/55 3.64%,51/2593 1.97%,0.29480967551512,0.936553947651209,0,--,2,Q13501;Q14318,2,Q13501;Q14318,K14381+K09574
+ko04540,Gap junction,Cellular Processes,Cellular community - eukaryotes,2/55 3.64%,52/2593 2.01%,0.302748487746951,0.936553947651209,1,Q92882,1,P0DPH7,2,P0DPH7;Q92882,K07374+K04364
+ko04148,Efferocytosis,Cellular Processes,Transport and catabolism,2/55 3.64%,76/2593 2.93%,0.483916780646902,0.936553947651209,1,P29466,1,Q96RD7,2,P29466;Q96RD7,K01370+K03443
+ko04142,Lysosome,Cellular Processes,Transport and catabolism,2/55 3.64%,79/2593 3.05%,0.504645802355817,0.936553947651209,1,P06280,1,Q9Y587,2,P06280;Q9Y587,K01189+K12403
+ko04510,Focal adhesion,Cellular Processes,Cellular community - eukaryotes,2/55 3.64%,112/2593 4.32%,0.696111785442261,0.936553947651209,2,C9J7W4;Q92882,0,--,2,C9J7W4;Q92882,K06252+K04364
+ko04144,Endocytosis,Cellular Processes,Transport and catabolism,2/55 3.64%,166/2593 6.4%,0.877552367978258,0.941480023923694,1,Q8WU79,1,Q9Y3E7,2,Q8WU79;Q9Y3E7,K12486+K12193
+ko04550,Signaling pathways regulating pluripotency of stem cells,Cellular Processes,Cellular community - eukaryotes,1/55 1.82%,29/2593 1.12%,0.464820678390836,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko04520,Adherens junction,Cellular Processes,Cellular community - eukaryotes,1/55 1.82%,59/2593 2.28%,0.721804092837848,0.936553947651209,0,--,1,P07947,1,P07947,K05705
+ko04218,Cellular senescence,Cellular Processes,Cell growth and death,1/55 1.82%,66/2593 2.55%,0.761460579407971,0.936553947651209,0,--,1,Q13501,1,Q13501,K14381
+ko04210,Apoptosis,Cellular Processes,Cell growth and death,1/55 1.82%,71/2593 2.74%,0.786332731184075,0.936553947651209,0,--,1,P0DPH7,1,P0DPH7,K07374
+ko04140,Autophagy - animal,Cellular Processes,Transport and catabolism,1/55 1.82%,86/2593 3.32%,0.846646274935272,0.941480023923694,0,--,1,Q13501,1,Q13501,K14381
+ko04530,Tight junction,Cellular Processes,Cellular community - eukaryotes,1/55 1.82%,87/2593 3.36%,0.850010636673828,0.941480023923694,0,--,1,P0DPH7,1,P0DPH7,K07374
+ko04820,Cytoskeleton in muscle cells,Cellular Processes,Cell motility,1/55 1.82%,108/2593 4.17%,0.90606089781964,0.951278600221834,1,P06733,0,--,1,P06733,K01689
+ko04151,PI3K-Akt signaling pathway,Environmental Information Processing,Signal transduction,3/55 5.45%,153/2593 5.9%,0.639923342656646,0.936553947651209,2,C9J7W4;Q92882,1,A0A0C4DH31,3,A0A0C4DH31;C9J7W4;Q92882,K06856+K06252+K04364
+ko04150,mTOR signaling pathway,Environmental Information Processing,Signal transduction,2/55 3.64%,62/2593 2.39%,0.380962299308136,0.936553947651209,1,Q92882,1,Q9Y5K8,2,Q92882;Q9Y5K8,K04364+K02149
+ko04014,Ras signaling pathway,Environmental Information Processing,Signal transduction,2/55 3.64%,82/2593 3.16%,0.524849001825431,0.936553947651209,2,Q92882;Q9UQ13,0,--,2,Q92882;Q9UQ13,K04364+K19613
+ko04072,Phospholipase D signaling pathway,Environmental Information Processing,Signal transduction,2/55 3.64%,88/2593 3.39%,0.563618336787263,0.936553947651209,1,Q92882,1,A0A0C4DH31,2,A0A0C4DH31;Q92882,K06856+K04364
+ko04630,JAK-STAT signaling pathway,Environmental Information Processing,Signal transduction,1/55 1.82%,33/2593 1.27%,0.509309570082622,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko04068,FoxO signaling pathway,Environmental Information Processing,Signal transduction,1/55 1.82%,39/2593 1.5%,0.56931650899218,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko04012,ErbB signaling pathway,Environmental Information Processing,Signal transduction,1/55 1.82%,40/2593 1.54%,0.578591212204956,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko04310,Wnt signaling pathway,Environmental Information Processing,Signal transduction,1/55 1.82%,43/2593 1.66%,0.605254487321815,0.936553947651209,0,--,1,Q8WZA0,1,Q8WZA0,K04493
+ko04070,Phosphatidylinositol signaling system,Environmental Information Processing,Signal transduction,1/55 1.82%,46/2593 1.77%,0.630259486662853,0.936553947651209,0,--,1,Q9NX62,1,Q9NX62,K15759
+ko04512,ECM-receptor interaction,Environmental Information Processing,Signaling molecules and interaction,1/55 1.82%,47/2593 1.81%,0.638243675211554,0.936553947651209,1,C9J7W4,0,--,1,C9J7W4,K06252
+ko04066,HIF-1 signaling pathway,Environmental Information Processing,Signal transduction,1/55 1.82%,53/2593 2.04%,0.682713550196475,0.936553947651209,1,P06733,0,--,1,P06733,K01689
+ko04064,NF-kappa B signaling pathway,Environmental Information Processing,Signal transduction,1/55 1.82%,68/2593 2.62%,0.771733182613469,0.936553947651209,0,--,1,A0A0C4DH31,1,A0A0C4DH31,K06856
+ko04022,cGMP-PKG signaling pathway,Environmental Information Processing,Signal transduction,1/55 1.82%,73/2593 2.82%,0.795552270169518,0.936553947651209,0,--,1,Q12912,1,Q12912,K12337
+ko04020,Calcium signaling pathway,Environmental Information Processing,Signal transduction,1/55 1.82%,92/2593 3.55%,0.865775205155401,0.941480023923694,0,--,1,A0A0C4DH31,1,A0A0C4DH31,K06856
+ko04010,MAPK signaling pathway,Environmental Information Processing,Signal transduction,1/55 1.82%,95/2593 3.66%,0.874440577352634,0.941480023923694,1,Q92882,0,--,1,Q92882,K04364
+ko03040,Spliceosome,Genetic Information Processing,Transcription,5/55 9.09%,34/2593 1.31%,0.000621935055164754,0.10075347893669,5,A0A994J4E9;P35637;P51991;P84103;Q86V81,0,--,5,A0A994J4E9;P35637;P51991;P84103;Q86V81,K12886+K13098+K12741+K12892+K12881
+ko03010,Ribosome,Genetic Information Processing,Translation,4/55 7.27%,73/2593 2.82%,0.0670678776755466,0.936553947651209,2,P27635;P62081,2,P25398;Q9NWU5,4,P25398;P27635;P62081;Q9NWU5,K02951+K02866+K02993+K02890
+ko03060,Protein export,Genetic Information Processing,"Folding, sorting and degradation",3/55 5.45%,22/2593 0.85%,0.0104541970596914,0.846789961835003,3,O76094;P37108;P49458,0,--,3,O76094;P37108;P49458,K03108+K03104+K03109
+ko03250,Viral life cycle - HIV-1,Genetic Information Processing,Information processing in viruses,2/55 3.64%,23/2593 0.89%,0.0841556261048952,0.936553947651209,1,Q8TD16,1,P78559,2,P78559;Q8TD16,K10429+K18739
+ko00970,Aminoacyl-tRNA biosynthesis,Genetic Information Processing,Translation,2/55 3.64%,30/2593 1.16%,0.1318990645193,0.936553947651209,1,Q5JTZ9,1,Q9Y285,2,Q5JTZ9;Q9Y285,K01872+K01889
+ko03018,RNA degradation,Genetic Information Processing,"Folding, sorting and degradation",2/55 3.64%,30/2593 1.16%,0.1318990645193,0.936553947651209,2,P06733;Q9NPI6,0,--,2,P06733;Q9NPI6,K01689+K12610
+ko03015,mRNA surveillance pathway,Genetic Information Processing,Translation,2/55 3.64%,32/2593 1.23%,0.146498264384776,0.936553947651209,2,P35637;Q86V81,0,--,2,P35637;Q86V81,K13098+K12881
+ko03430,Mismatch repair,Genetic Information Processing,Replication and repair,1/55 1.82%,5/2593 0.19%,0.101725302000457,0.936553947651209,1,P35244,0,--,1,P35244,K10740
+ko03460,Fanconi anemia pathway,Genetic Information Processing,Replication and repair,1/55 1.82%,5/2593 0.19%,0.101725302000457,0.936553947651209,1,P35244,0,--,1,P35244,K10740
+ko03420,Nucleotide excision repair,Genetic Information Processing,Replication and repair,1/55 1.82%,9/2593 0.35%,0.175727224997949,0.936553947651209,1,P35244,0,--,1,P35244,K10740
+ko03440,Homologous recombination,Genetic Information Processing,Replication and repair,1/55 1.82%,9/2593 0.35%,0.175727224997949,0.936553947651209,1,P35244,0,--,1,P35244,K10740
+ko03030,DNA replication,Genetic Information Processing,Replication and repair,1/55 1.82%,10/2593 0.39%,0.193271730657823,0.936553947651209,1,P35244,0,--,1,P35244,K10740
+ko03013,Nucleocytoplasmic transport,Genetic Information Processing,Translation,1/55 1.82%,38/2593 1.47%,0.559841472190008,0.936553947651209,1,Q86V81,0,--,1,Q86V81,K12881
+ko05014,Amyotrophic lateral sclerosis,Human Diseases,Neurodegenerative disease,7/55 12.73%,212/2593 8.18%,0.157920497992767,0.936553947651209,5,P29466;P35637;P51991;P84103;Q86V81,2,P0DPH7;Q13501,7,P0DPH7;P29466;P35637;P51991;P84103;Q13501;Q86V81,K07374+K01370+K13098+K12741+K12892+K14381+K12881
+ko05130,Pathogenic Escherichia coli infection,Human Diseases,Infectious disease: bacterial,5/55 9.09%,142/2593 5.48%,0.18002696648924,0.936553947651209,3,B0I1T2;P29466;Q9UM54,2,A0A0C4DH31;P0DPH7,5,A0A0C4DH31;B0I1T2;P0DPH7;P29466;Q9UM54,K06856+K10356+K07374+K01370+K10358
+ko05171,Coronavirus disease - COVID-19,Human Diseases,Infectious disease: viral,5/55 9.09%,162/2593 6.25%,0.257733031843324,0.936553947651209,3,P27635;P29466;P62081,2,A0A0C4DH31;P25398,5,A0A0C4DH31;P25398;P27635;P29466;P62081,K06856+K02951+K02866+K01370+K02993
+ko05202,Transcriptional misregulation in cancer,Human Diseases,Cancer: overview,4/55 7.27%,61/2593 2.35%,0.0386980375367433,0.936553947651209,3,P35637;Q01543;Q01844,1,A0A0C4DH31,4,A0A0C4DH31;P35637;Q01543;Q01844,K06856+K13098+K09436+K13209
+ko05132,Salmonella infection,Human Diseases,Infectious disease: bacterial,4/55 7.27%,168/2593 6.48%,0.482200885815176,0.936553947651209,2,P29466;Q9UM54,2,P0DPH7;Q96FJ2,4,P0DPH7;P29466;Q96FJ2;Q9UM54,K07374+K01370+K10418+K10358
+ko05206,MicroRNAs in cancer,Human Diseases,Cancer: overview,3/55 5.45%,54/2593 2.08%,0.105027141798711,0.936553947651209,3,A0A994J4E9;C9J7W4;Q92882,0,--,3,A0A994J4E9;C9J7W4;Q92882,K12886+K06252+K04364
+ko05418,Fluid shear stress and atherosclerosis,Human Diseases,Cardiovascular disease,3/55 5.45%,62/2593 2.39%,0.142637223642125,0.936553947651209,1,P19878,2,P09211;Q13501,3,P09211;P19878;Q13501,K23790+K08010+K14381
+ko05140,Leishmaniasis,Human Diseases,Infectious disease: parasitic,3/55 5.45%,69/2593 2.66%,0.178713422191134,0.936553947651209,2,P19878;Q15080,1,A0A0C4DH31,3,A0A0C4DH31;P19878;Q15080,K06856+K08010+K08012
+ko05417,Lipid and atherosclerosis,Human Diseases,Cardiovascular disease,3/55 5.45%,109/2593 4.2%,0.40967531379364,0.936553947651209,3,P19878;P29466;Q15080,0,--,3,P19878;P29466;Q15080,K08010+K01370+K08012
+ko05165,Human papillomavirus infection,Human Diseases,Infectious disease: viral,3/55 5.45%,135/2593 5.21%,0.553041579124143,0.936553947651209,2,C9J7W4;Q92882,1,Q9Y5K8,3,C9J7W4;Q92882;Q9Y5K8,K06252+K04364+K02149
+ko05020,Prion disease,Human Diseases,Neurodegenerative disease,3/55 5.45%,181/2593 6.98%,0.750943638514552,0.936553947651209,2,P19878;Q15080,1,P0DPH7,3,P0DPH7;P19878;Q15080,K07374+K08010+K08012
+ko05022,Pathways of neurodegeneration - multiple diseases,Human Diseases,Neurodegenerative disease,3/55 5.45%,254/2593 9.8%,0.917841858924479,0.953143468883113,1,P35637,2,P0DPH7;Q13501,3,P0DPH7;P35637;Q13501,K07374+K13098+K14381
+ko05215,Prostate cancer,Human Diseases,Cancer: specific types,2/55 3.64%,40/2593 1.54%,0.207603083693912,0.936553947651209,1,Q92882,1,P09211,2,P09211;Q92882,K23790+K04364
+ko05225,Hepatocellular carcinoma,Human Diseases,Cancer: specific types,2/55 3.64%,52/2593 2.01%,0.302748487746951,0.936553947651209,1,Q92882,1,P09211,2,P09211;Q92882,K23790+K04364
+ko05323,Rheumatoid arthritis,Human Diseases,Immune disease,2/55 3.64%,60/2593 2.31%,0.365550849451429,0.936553947651209,0,--,2,A0A0C4DH31;Q9Y5K8,2,A0A0C4DH31;Q9Y5K8,K06856+K02149
+ko05164,Influenza A,Human Diseases,Infectious disease: viral,2/55 3.64%,72/2593 2.78%,0.455495822093597,0.936553947651209,1,P29466,1,P14324,2,P14324;P29466,K00787+K01370
+ko05203,Viral carcinogenesis,Human Diseases,Cancer: overview,2/55 3.64%,88/2593 3.39%,0.563618336787263,0.936553947651209,2,A0A994J4E9;Q92882,0,--,2,A0A994J4E9;Q92882,K12886+K04364
+ko05168,Herpes simplex virus 1 infection,Human Diseases,Infectious disease: viral,2/55 3.64%,105/2593 4.05%,0.661192719533179,0.936553947651209,2,P84103;Q86V81,0,--,2,P84103;Q86V81,K12892+K12881
+ko05135,Yersinia infection,Human Diseases,Infectious disease: bacterial,2/55 3.64%,116/2593 4.47%,0.714732856166845,0.936553947651209,1,P29466,1,A0A0C4DH31,2,A0A0C4DH31;P29466,K06856+K01370
+ko05208,Chemical carcinogenesis - reactive oxygen species,Human Diseases,Cancer: overview,2/55 3.64%,131/2593 5.05%,0.776396192604002,0.936553947651209,2,P19878;Q92882,0,--,2,P19878;Q92882,K08010+K04364
+ko05415,Diabetic cardiomyopathy,Human Diseases,Cardiovascular disease,2/55 3.64%,131/2593 5.05%,0.776396192604002,0.936553947651209,2,P19878;Q15080,0,--,2,P19878;Q15080,K08010+K08012
+ko05131,Shigellosis,Human Diseases,Infectious disease: bacterial,2/55 3.64%,132/2593 5.09%,0.78007206094873,0.936553947651209,1,P29466,1,Q13501,2,P29466;Q13501,K01370+K14381
+ko05200,Pathways in cancer,Human Diseases,Cancer: overview,2/55 3.64%,161/2593 6.21%,0.86620674079178,0.941480023923694,1,Q92882,1,P09211,2,P09211;Q92882,K23790+K04364
+ko05204,Chemical carcinogenesis - DNA adducts,Human Diseases,Cancer: overview,1/55 1.82%,14/2593 0.54%,0.259856445717304,0.936553947651209,0,--,1,P09211,1,P09211,K23790
+ko01523,Antifolate resistance,Human Diseases,Drug resistance: antineoplastic,1/55 1.82%,16/2593 0.62%,0.291094562915511,0.936553947651209,0,--,1,P31939,1,P31939,K00602
+ko05134,Legionellosis,Human Diseases,Infectious disease: bacterial,1/55 1.82%,27/2593 1.04%,0.441114410192923,0.936553947651209,1,P29466,0,--,1,P29466,K01370
+ko05213,Endometrial cancer,Human Diseases,Cancer: specific types,1/55 1.82%,27/2593 1.04%,0.441114410192923,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko05224,Breast cancer,Human Diseases,Cancer: specific types,1/55 1.82%,28/2593 1.08%,0.453093641463145,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko01524,Platinum drug resistance,Human Diseases,Drug resistance: antineoplastic,1/55 1.82%,29/2593 1.12%,0.464820678390836,0.936553947651209,0,--,1,P09211,1,P09211,K23790
+ko05110,Vibrio cholerae infection,Human Diseases,Infectious disease: bacterial,1/55 1.82%,32/2593 1.23%,0.498540227047723,0.936553947651209,0,--,1,Q9Y5K8,1,Q9Y5K8,K02149
+ko05214,Glioma,Human Diseases,Cancer: specific types,1/55 1.82%,32/2593 1.23%,0.498540227047723,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko05221,Acute myeloid leukemia,Human Diseases,Cancer: specific types,1/55 1.82%,32/2593 1.23%,0.498540227047723,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko05211,Renal cell carcinoma,Human Diseases,Cancer: specific types,1/55 1.82%,33/2593 1.27%,0.509309570082622,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko05223,Non-small cell lung cancer,Human Diseases,Cancer: specific types,1/55 1.82%,33/2593 1.27%,0.509309570082622,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko05226,Gastric cancer,Human Diseases,Cancer: specific types,1/55 1.82%,33/2593 1.27%,0.509309570082622,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko05220,Chronic myeloid leukemia,Human Diseases,Cancer: specific types,1/55 1.82%,34/2593 1.31%,0.519851747287878,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko01522,Endocrine resistance,Human Diseases,Drug resistance: antineoplastic,1/55 1.82%,35/2593 1.35%,0.530171463543902,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko05120,Epithelial cell signaling in Helicobacter pylori infection,Human Diseases,Infectious disease: bacterial,1/55 1.82%,35/2593 1.35%,0.530171463543902,0.936553947651209,0,--,1,Q9Y5K8,1,Q9Y5K8,K02149
+ko05210,Colorectal cancer,Human Diseases,Cancer: specific types,1/55 1.82%,35/2593 1.35%,0.530171463543902,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko05133,Pertussis,Human Diseases,Infectious disease: bacterial,1/55 1.82%,37/2593 1.43%,0.550161856424494,0.936553947651209,1,P29466,0,--,1,P29466,K01370
+ko01521,EGFR tyrosine kinase inhibitor resistance,Human Diseases,Drug resistance: antineoplastic,1/55 1.82%,39/2593 1.5%,0.56931650899218,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko05310,Asthma,Human Diseases,Immune disease,1/55 1.82%,40/2593 1.54%,0.578591212204956,0.936553947651209,0,--,1,A0A0C4DH31,1,A0A0C4DH31,K06856
+ko05231,Choline metabolism in cancer,Human Diseases,Cancer: overview,1/55 1.82%,42/2593 1.62%,0.596556168733152,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko05143,African trypanosomiasis,Human Diseases,Infectious disease: parasitic,1/55 1.82%,46/2593 1.77%,0.630259486662853,0.936553947651209,0,--,1,A0A0C4DH31,1,A0A0C4DH31,K06856
+ko05340,Primary immunodeficiency,Human Diseases,Immune disease,1/55 1.82%,49/2593 1.89%,0.653707551184791,0.936553947651209,0,--,1,A0A0C4DH31,1,A0A0C4DH31,K06856
+ko05034,Alcoholism,Human Diseases,Substance dependence,1/55 1.82%,50/2593 1.93%,0.661194219692981,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko05320,Autoimmune thyroid disease,Human Diseases,Immune disease,1/55 1.82%,53/2593 2.04%,0.682713550196475,0.936553947651209,0,--,1,A0A0C4DH31,1,A0A0C4DH31,K06856
+ko05330,Allograft rejection,Human Diseases,Immune disease,1/55 1.82%,53/2593 2.04%,0.682713550196475,0.936553947651209,0,--,1,A0A0C4DH31,1,A0A0C4DH31,K06856
+ko05207,Chemical carcinogenesis - receptor activation,Human Diseases,Cancer: overview,1/55 1.82%,61/2593 2.35%,0.73375174823309,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko05160,Hepatitis C,Human Diseases,Infectious disease: viral,1/55 1.82%,62/2593 2.39%,0.739535181822023,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko05161,Hepatitis B,Human Diseases,Infectious disease: viral,1/55 1.82%,67/2593 2.58%,0.766652375265732,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko05322,Systemic lupus erythematosus,Human Diseases,Immune disease,1/55 1.82%,75/2593 2.89%,0.804380920317462,0.936553947651209,0,--,1,A0A0C4DH31,1,A0A0C4DH31,K06856
+ko05146,Amoebiasis,Human Diseases,Infectious disease: parasitic,1/55 1.82%,76/2593 2.93%,0.808653775513069,0.936553947651209,0,--,1,A0A0C4DH31,1,A0A0C4DH31,K06856
+ko05414,Dilated cardiomyopathy,Human Diseases,Cardiovascular disease,1/55 1.82%,76/2593 2.93%,0.808653775513069,0.936553947651209,0,--,1,A0A0C4DH31,1,A0A0C4DH31,K06856
+ko05416,Viral myocarditis,Human Diseases,Cardiovascular disease,1/55 1.82%,77/2593 2.97%,0.812834960394587,0.936553947651209,0,--,1,A0A0C4DH31,1,A0A0C4DH31,K06856
+ko05150,Staphylococcus aureus infection,Human Diseases,Infectious disease: bacterial,1/55 1.82%,78/2593 3.01%,0.816926406013943,0.936553947651209,0,--,1,A0A0C4DH31,1,A0A0C4DH31,K06856
+ko05166,Human T-cell leukemia virus 1 infection,Human Diseases,Infectious disease: viral,1/55 1.82%,87/2593 3.36%,0.850010636673828,0.941480023923694,0,--,1,P14324,1,P14324,K00787
+ko05205,Proteoglycans in cancer,Human Diseases,Cancer: overview,1/55 1.82%,109/2593 4.2%,0.908140032877957,0.951278600221834,1,Q92882,0,--,1,Q92882,K04364
+ko05152,Tuberculosis,Human Diseases,Infectious disease: bacterial,1/55 1.82%,110/2593 4.24%,0.910173969348051,0.951278600221834,0,--,1,A0A0C4DH31,1,A0A0C4DH31,K06856
+ko05163,Human cytomegalovirus infection,Human Diseases,Infectious disease: viral,1/55 1.82%,119/2593 4.59%,0.926598166176681,0.956107661914792,1,Q92882,0,--,1,Q92882,K04364
+ko05169,Epstein-Barr virus infection,Human Diseases,Infectious disease: viral,1/55 1.82%,131/2593 5.05%,0.943988560469202,0.961799665383715,0,--,1,A0A0C4DH31,1,A0A0C4DH31,K06856
+ko05012,Parkinson disease,Human Diseases,Neurodegenerative disease,1/55 1.82%,169/2593 6.52%,0.976419159640425,0.985058325002541,0,--,1,P0DPH7,1,P0DPH7,K07374
+ko05016,Huntington disease,Human Diseases,Neurodegenerative disease,1/55 1.82%,174/2593 6.71%,0.978977718058081,0.985058325002541,0,--,1,P0DPH7,1,P0DPH7,K07374
+ko05010,Alzheimer disease,Human Diseases,Neurodegenerative disease,1/55 1.82%,208/2593 8.02%,0.99043447136781,0.99043447136781,0,--,1,P0DPH7,1,P0DPH7,K07374
+ko00600,Sphingolipid metabolism,Metabolism,Lipid metabolism,2/55 3.64%,19/2593 0.73%,0.0599991230713059,0.936553947651209,2,P06280;Q99999,0,--,2,P06280;Q99999,K01189+K01019
+ko00603,Glycosphingolipid biosynthesis - globo and isoglobo series,Metabolism,Glycan biosynthesis and metabolism,1/55 1.82%,4/2593 0.15%,0.082228416290128,0.936553947651209,1,P06280,0,--,1,P06280,K01189
+ko00100,Steroid biosynthesis,Metabolism,Lipid metabolism,1/55 1.82%,6/2593 0.23%,0.120815374794111,0.936553947651209,0,--,1,Q9UBM7,1,Q9UBM7,K00213
+ko00910,Nitrogen metabolism,Metabolism,Energy metabolism,1/55 1.82%,7/2593 0.27%,0.139506969067912,0.936553947651209,0,--,1,P00918,1,P00918,K18245
+ko00670,One carbon pool by folate,Metabolism,Metabolism of cofactors and vitamins,1/55 1.82%,8/2593 0.31%,0.15780825162834,0.936553947651209,0,--,1,P31939,1,P31939,K00602
+ko00920,Sulfur metabolism,Metabolism,Energy metabolism,1/55 1.82%,9/2593 0.35%,0.175727224997949,0.936553947651209,0,--,1,Q9NX62,1,Q9NX62,K15759
+ko00900,Terpenoid backbone biosynthesis,Metabolism,Metabolism of terpenoids and polyketides,1/55 1.82%,10/2593 0.39%,0.193271730657823,0.936553947651209,0,--,1,P14324,1,P14324,K00787
+ko00565,Ether lipid metabolism,Metabolism,Lipid metabolism,1/55 1.82%,11/2593 0.42%,0.210449452227245,0.936553947651209,1,Q99999,0,--,1,Q99999,K01019
+ko00760,Nicotinate and nicotinamide metabolism,Metabolism,Metabolism of cofactors and vitamins,1/55 1.82%,13/2593 0.5%,0.243734506911146,0.936553947651209,1,P43490,0,--,1,P43490,K03462
+ko00052,Galactose metabolism,Metabolism,Carbohydrate metabolism,1/55 1.82%,14/2593 0.54%,0.259856445717304,0.936553947651209,1,P06280,0,--,1,P06280,K01189
+ko00982,Drug metabolism - cytochrome P450,Metabolism,Xenobiotics biodegradation and metabolism,1/55 1.82%,15/2593 0.58%,0.275640817755128,0.936553947651209,0,--,1,P09211,1,P09211,K23790
+ko00860,Porphyrin metabolism,Metabolism,Metabolism of cofactors and vitamins,1/55 1.82%,16/2593 0.62%,0.291094562915511,0.936553947651209,0,--,1,P06132,1,P06132,K01599
+ko00980,Metabolism of xenobiotics by cytochrome P450,Metabolism,Xenobiotics biodegradation and metabolism,1/55 1.82%,17/2593 0.66%,0.306224481052743,0.936553947651209,0,--,1,P09211,1,P09211,K23790
+ko00561,Glycerolipid metabolism,Metabolism,Lipid metabolism,1/55 1.82%,24/2593 0.93%,0.403609787780701,0.936553947651209,1,P06280,0,--,1,P06280,K01189
+ko00983,Drug metabolism - other enzymes,Metabolism,Xenobiotics biodegradation and metabolism,1/55 1.82%,28/2593 1.08%,0.453093641463145,0.936553947651209,0,--,1,P09211,1,P09211,K23790
+ko00480,Glutathione metabolism,Metabolism,Metabolism of other amino acids,1/55 1.82%,33/2593 1.27%,0.509309570082622,0.936553947651209,0,--,1,P09211,1,P09211,K23790
+ko00010,Glycolysis / Gluconeogenesis,Metabolism,Carbohydrate metabolism,1/55 1.82%,41/2593 1.58%,0.58766974073168,0.936553947651209,1,P06733,0,--,1,P06733,K01689
+ko00230,Purine metabolism,Metabolism,Nucleotide metabolism,1/55 1.82%,46/2593 1.77%,0.630259486662853,0.936553947651209,0,--,1,P31939,1,P31939,K00602
+ko01230,Biosynthesis of amino acids,Metabolism,Global and overview maps,1/55 1.82%,47/2593 1.81%,0.638243675211554,0.936553947651209,1,P06733,0,--,1,P06733,K01689
+ko01240,Biosynthesis of cofactors,Metabolism,Global and overview maps,1/55 1.82%,62/2593 2.39%,0.739535181822023,0.936553947651209,0,--,1,P06132,1,P06132,K01599
+ko01200,Carbon metabolism,Metabolism,Global and overview maps,1/55 1.82%,79/2593 3.05%,0.820930003496739,0.936553947651209,1,P06733,0,--,1,P06733,K01689
+ko00190,Oxidative phosphorylation,Metabolism,Energy metabolism,1/55 1.82%,92/2593 3.55%,0.865775205155401,0.941480023923694,0,--,1,Q9Y5K8,1,Q9Y5K8,K02149
+ko04380,Osteoclast differentiation,Organismal Systems,Development and regeneration,4/55 7.27%,61/2593 2.35%,0.0386980375367433,0.936553947651209,3,P19878;Q15080;Q92882,1,Q13501,4,P19878;Q13501;Q15080;Q92882,K08010+K14381+K08012+K04364
+ko04613,Neutrophil extracellular trap formation,Organismal Systems,Immune system,4/55 7.27%,115/2593 4.44%,0.225360971120439,0.936553947651209,3,P19878;P29466;Q15080,1,A0A0C4DH31,4,A0A0C4DH31;P19878;P29466;Q15080,K06856+K08010+K01370+K08012
+ko04621,NOD-like receptor signaling pathway,Organismal Systems,Immune system,3/55 5.45%,85/2593 3.28%,0.268565248991254,0.936553947651209,2,P29466;P43490,1,Q96RD7,3,P29466;P43490;Q96RD7,K01370+K03462+K03443
+ko04966,Collecting duct acid secretion,Organismal Systems,Excretory system,2/55 3.64%,13/2593 0.5%,0.0296688586298591,0.936553947651209,0,--,2,P00918;Q9Y5K8,2,P00918;Q9Y5K8,K18245+K02149
+ko04664,Fc epsilon RI signaling pathway,Organismal Systems,Immune system,2/55 3.64%,66/2593 2.55%,0.41131982051227,0.936553947651209,1,Q92882,1,A0A0C4DH31,2,A0A0C4DH31;Q92882,K06856+K04364
+ko04662,B cell receptor signaling pathway,Organismal Systems,Immune system,2/55 3.64%,72/2593 2.78%,0.455495822093597,0.936553947651209,1,Q92882,1,A0A0C4DH31,2,A0A0C4DH31;Q92882,K06856+K04364
+ko04670,Leukocyte transendothelial migration,Organismal Systems,Immune system,2/55 3.64%,72/2593 2.78%,0.455495822093597,0.936553947651209,2,P19878;Q15080,0,--,2,P19878;Q15080,K08010+K08012
+ko04650,Natural killer cell mediated cytotoxicity,Organismal Systems,Immune system,2/55 3.64%,78/2593 3.01%,0.497793647704237,0.936553947651209,1,Q92882,1,A0A0C4DH31,2,A0A0C4DH31;Q92882,K06856+K04364
+ko04964,Proximal tubule bicarbonate reclamation,Organismal Systems,Excretory system,1/55 1.82%,10/2593 0.39%,0.193271730657823,0.936553947651209,0,--,1,P00918,1,P00918,K18245
+ko04978,Mineral absorption,Organismal Systems,Digestive system,1/55 1.82%,13/2593 0.5%,0.243734506911146,0.936553947651209,1,Q9Y6M5,0,--,1,Q9Y6M5,K14688
+ko04976,Bile secretion,Organismal Systems,Digestive system,1/55 1.82%,16/2593 0.62%,0.291094562915511,0.936553947651209,0,--,1,P00918,1,P00918,K18245
+ko04623,Cytosolic DNA-sensing pathway,Organismal Systems,Immune system,1/55 1.82%,21/2593 0.81%,0.363637132933633,0.936553947651209,1,P29466,0,--,1,P29466,K01370
+ko04917,Prolactin signaling pathway,Organismal Systems,Endocrine system,1/55 1.82%,26/2593 1%,0.42887766360081,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko04962,Vasopressin-regulated water reabsorption,Organismal Systems,Excretory system,1/55 1.82%,27/2593 1.04%,0.441114410192923,0.936553947651209,0,--,1,Q96FJ2,1,Q96FJ2,K10418
+ko04721,Synaptic vesicle cycle,Organismal Systems,Nervous system,1/55 1.82%,32/2593 1.23%,0.498540227047723,0.936553947651209,0,--,1,Q9Y5K8,1,Q9Y5K8,K02149
+ko04971,Gastric acid secretion,Organismal Systems,Digestive system,1/55 1.82%,36/2593 1.39%,0.540273328088502,0.936553947651209,0,--,1,P00918,1,P00918,K18245
+ko04972,Pancreatic secretion,Organismal Systems,Digestive system,1/55 1.82%,40/2593 1.54%,0.578591212204956,0.936553947651209,0,--,1,P00918,1,P00918,K18245
+ko04912,GnRH signaling pathway,Organismal Systems,Endocrine system,1/55 1.82%,42/2593 1.62%,0.596556168733152,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko04672,Intestinal immune network for IgA production,Organismal Systems,Immune system,1/55 1.82%,43/2593 1.66%,0.605254487321815,0.936553947651209,0,--,1,A0A0C4DH31,1,A0A0C4DH31,K06856
+ko04625,C-type lectin receptor signaling pathway,Organismal Systems,Immune system,1/55 1.82%,44/2593 1.7%,0.613768606222717,0.936553947651209,1,P29466,0,--,1,P29466,K01370
+ko04926,Relaxin signaling pathway,Organismal Systems,Endocrine system,1/55 1.82%,52/2593 2.01%,0.675693938475158,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko04722,Neurotrophin signaling pathway,Organismal Systems,Nervous system,1/55 1.82%,53/2593 2.04%,0.682713550196475,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko04915,Estrogen signaling pathway,Organismal Systems,Endocrine system,1/55 1.82%,55/2593 2.12%,0.696308181322516,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko04935,"Growth hormone synthesis, secretion and action",Organismal Systems,Endocrine system,1/55 1.82%,55/2593 2.12%,0.696308181322516,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko04270,Vascular smooth muscle contraction,Organismal Systems,Circulatory system,1/55 1.82%,57/2593 2.2%,0.709330472863479,0.936553947651209,0,--,1,Q12912,1,Q12912,K12337
+ko04640,Hematopoietic cell lineage,Organismal Systems,Immune system,1/55 1.82%,58/2593 2.24%,0.715634425541913,0.936553947651209,0,--,1,A0A0C4DH31,1,A0A0C4DH31,K06856
+ko04660,T cell receptor signaling pathway,Organismal Systems,Immune system,1/55 1.82%,59/2593 2.28%,0.721804092837848,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko04360,Axon guidance,Organismal Systems,Development and regeneration,1/55 1.82%,71/2593 2.74%,0.786332731184075,0.936553947651209,0,--,1,A0A0C4DGA7,1,A0A0C4DGA7,K07520
+ko04910,Insulin signaling pathway,Organismal Systems,Endocrine system,1/55 1.82%,71/2593 2.74%,0.786332731184075,0.936553947651209,1,Q92882,0,--,1,Q92882,K04364
+ko04666,Fc gamma R-mediated phagocytosis,Organismal Systems,Immune system,1/55 1.82%,90/2593 3.47%,0.859674848109484,0.941480023923694,0,--,1,A0A0C4DH31,1,A0A0C4DH31,K06856
+ko04062,Chemokine signaling pathway,Organismal Systems,Immune system,1/55 1.82%,100/2593 3.86%,0.887677881466568,0.946077742089369,1,Q92882,0,--,1,Q92882,K04364
+ko04714,Thermogenesis,Organismal Systems,Environmental adaptation,1/55 1.82%,125/2593 4.82%,0.935869593966264,0.959562495079334,1,Q92882,0,--,1,Q92882,K04364

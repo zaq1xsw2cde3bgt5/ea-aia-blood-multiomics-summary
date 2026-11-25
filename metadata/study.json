@@ -1,0 +1,29 @@
+{
+  "title": "Pretreatment blood multiomics group summaries by pain outcome after electroacupuncture in breast cancer",
+  "design": "Exploratory observational, outcome-selected analysis after routine care",
+  "biological_replicates": {
+    "responder": 3,
+    "non_responder": 3
+  },
+  "sampling": "Pretreatment PBMCs and serum from the same six participants",
+  "response_definition": "BPI-SF worst-pain reduction of at least 2 points by session 16",
+  "scRNA_cells_retained_in_manuscript": 79913,
+  "bulk_RNA_exported_features": 46714,
+  "protein_quantified_features": 4391,
+  "RNA_features_reported_adjusted_screen": 26,
+  "RNA_features_all_row_BH_screen": 21,
+  "protein_features_BH_significant": 0,
+  "public_scope": "Group-level statistics only; no individual expression columns, raw reads, cell barcodes, sample key or clinical records.",
+  "repository_accessions": {
+    "GEO": null,
+    "SRA": null,
+    "ProteomeXchange": null
+  },
+  "limits": [
+    "No validation cohort or untreated comparison group.",
+    "Cell-level contrasts do not account for donors as independent replication.",
+    "Hallmark file contains only three delivered results; complete tested output is unavailable.",
+    "A GitHub repository is not a raw sequencing or mass-spectrometry deposit."
+  ],
+  "prepared_date": "2026-11-25"
+}

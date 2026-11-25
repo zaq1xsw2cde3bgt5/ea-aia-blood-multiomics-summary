@@ -1,0 +1,240 @@
+[
+  {
+    "path": "data/bulk_rna_group_statistics.csv.gz",
+    "rows": 46714,
+    "bytes": 2945944,
+    "sha256": "7484562dc9c1a693170aeb4ddb71767411e70100fa95ec5a51e0ab41771c9a1f",
+    "description": "All exported RNA group contrasts; all six individual TPM columns removed.",
+    "columns": [
+      "Gene",
+      "baseMean",
+      "log2FoldChange",
+      "lfcSE",
+      "stat",
+      "pvalue",
+      "padj",
+      "Symbol",
+      "Chr",
+      "GeneType",
+      "Description",
+      "nominal_screen",
+      "BH_significant",
+      "all_rows_BH_q",
+      "all_rows_BH_significant",
+      "source_correction_family_display"
+    ]
+  },
+  {
+    "path": "data/serum_protein_group_statistics.csv.gz",
+    "rows": 4391,
+    "bytes": 1458098,
+    "sha256": "9facebfae9ad0cc00280f53418a5862f1ea96070a03ff90c18caf49d38ec7958",
+    "description": "All quantified serum protein group contrasts; all six individual abundance columns removed.",
+    "columns": [
+      "Accession",
+      "Description",
+      "Gene",
+      "FC",
+      "P-value",
+      "FDR",
+      "Regulation",
+      "Biological process",
+      "Cellular component",
+      "Molecular function",
+      "KOG",
+      "K",
+      "KEGG_Pathways",
+      "IPRs",
+      "Subcellular_localization",
+      "signalP",
+      "disease_id",
+      "drug_id",
+      "FDA_Approval",
+      "log2FC",
+      "nominal_screen",
+      "BH_significant"
+    ]
+  },
+  {
+    "path": "data/single_cell_celltype_group_statistics.csv.gz",
+    "rows": 185064,
+    "bytes": 4777543,
+    "sha256": "1f296faaed202908534885f216e425333714531b0ce8f896ef5eccf7cc894e41",
+    "description": "Exploratory cell-level contrasts by cell type; group summaries, not donor-aware validation.",
+    "columns": [
+      "cluster",
+      "gene",
+      "avg_log2FC",
+      "pct.1",
+      "pct.2",
+      "p_val",
+      "p_val_adj",
+      "cell_level_screen"
+    ]
+  },
+  {
+    "path": "data/cell_proportion_group_statistics.csv",
+    "rows": 6,
+    "bytes": 715,
+    "sha256": "c5e62ad66625a4bfa2a06daed8d7bfe3a07e255cc9800f3cedde9d9ae6e2ecea",
+    "description": "Six patient-level permutation comparisons summarized by outcome group.",
+    "columns": [
+      "cell_type",
+      "Responder_mean_pct",
+      "Non_responder_mean_pct",
+      "Responder_median_pct",
+      "Non_responder_median_pct",
+      "exact_two_sided_p",
+      "BH_q"
+    ]
+  },
+  {
+    "path": "data/protein_go_enrichment.csv",
+    "rows": 356,
+    "bytes": 60319,
+    "sha256": "c8596331b5a8acc5a34b5038def50f5d47a508c9383faf5cbd42456f8e60f07c",
+    "description": "Protein GO enrichment with within-ontology FDR and pooled GO BH sensitivity check.",
+    "columns": [
+      "Ontology",
+      "GO",
+      "Description",
+      "DiffRatio",
+      "BgRatio",
+      "P-value",
+      "FDR",
+      "Up",
+      "up_prot",
+      "Down",
+      "down_prot",
+      "Count",
+      "Proteins",
+      "pooled_GO_BH_q"
+    ]
+  },
+  {
+    "path": "data/protein_kegg_enrichment.csv",
+    "rows": 162,
+    "bytes": 29121,
+    "sha256": "300cef680bc891237a3197545b91d8aed9d5aef3c637fbf916e2483963fc52d9",
+    "description": "Protein KEGG enrichment.",
+    "columns": [
+      "ko_ID",
+      "KEGG_Pathway",
+      "KEGG_level_1",
+      "KEGG_level_2",
+      "DiffRatio",
+      "BgRatio",
+      "P-value",
+      "FDR",
+      "Up",
+      "up_prot",
+      "Down",
+      "down_prot",
+      "Count",
+      "Proteins",
+      "K_ids"
+    ]
+  },
+  {
+    "path": "data/hallmark_reported_subset.csv",
+    "rows": 3,
+    "bytes": 2027,
+    "sha256": "523be05d60a47a5dc61e665380a564c8030719a87b1591d099e3f88613ceab80",
+    "description": "Only the three delivered Hallmark results; not the complete tested family.",
+    "columns": [
+      "ID",
+      "Description",
+      "setSize",
+      "enrichmentScore",
+      "NES",
+      "pvalue",
+      "p.adjust",
+      "qvalue",
+      "rank",
+      "leading_edge",
+      "core_enrichment"
+    ]
+  },
+  {
+    "path": "data/rna_protein_group_correspondence.csv.gz",
+    "rows": 4044,
+    "bytes": 250905,
+    "sha256": "b838e5dfb78d11395ad48d5bbb7834198dc4c4659e6a30b83a2d863f0c89a091",
+    "description": "Uniquely matched RNA/protein group contrasts.",
+    "columns": [
+      "Gene_rna",
+      "Symbol",
+      "log2FoldChange",
+      "pvalue",
+      "padj",
+      "nominal_screen_rna",
+      "BH_significant_rna",
+      "Accession",
+      "Gene_protein",
+      "log2FC",
+      "P-value",
+      "FDR",
+      "nominal_screen_protein",
+      "BH_significant_protein",
+      "concordant_direction",
+      "both_nominal",
+      "both_BH"
+    ]
+  },
+  {
+    "path": "data/rna_down_go_biological_process.csv",
+    "rows": 148,
+    "bytes": 31697,
+    "sha256": "cfab959a23792e4d1d8f99b324a09d6e6ef00530f542681c3c6b8ab95d6fb9ec",
+    "description": "Reported GO biological-process enrichment for the nominal lower-expression RNA set.",
+    "columns": [
+      "Term",
+      "Database",
+      "ID",
+      "Input number",
+      "Background number",
+      "P-Value",
+      "Corrected P-Value",
+      "Input",
+      "Hyperlink"
+    ]
+  },
+  {
+    "path": "data/rna_down_kegg.csv",
+    "rows": 246,
+    "bytes": 52605,
+    "sha256": "a29a90b748e7c2f7fc0585b9044af9b2cdfd66af34810ae24236c9c8007e4506",
+    "description": "Reported KEGG enrichment for the nominal lower-expression RNA set.",
+    "columns": [
+      "Term",
+      "Database",
+      "ID",
+      "Input number",
+      "Background number",
+      "P-Value",
+      "Corrected P-Value",
+      "Input",
+      "Hyperlink",
+      "img"
+    ]
+  },
+  {
+    "path": "data/rna_up_kegg.csv",
+    "rows": 202,
+    "bytes": 39585,
+    "sha256": "7a13491a3e5162444d488101c1a0fe39d86a3e8b7b4218681b588f6408e7ae5c",
+    "description": "Reported KEGG enrichment for the nominal higher-expression RNA set.",
+    "columns": [
+      "Term",
+      "Database",
+      "ID",
+      "Input number",
+      "Background number",
+      "P-Value",
+      "Corrected P-Value",
+      "Input",
+      "Hyperlink",
+      "img"
+    ]
+  }
+]
